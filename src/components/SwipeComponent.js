@@ -9,9 +9,9 @@ import BadgeComponet from './BadgeComponent'
 const SwipeComponent = (props) => {
   return (
     <View style={styles.swipeContainer}>
-      <ScrollView horizontal={true}>
-
-      <LinearGradient colors={['#7F38F4', '#c949cc', '#F22B48']} style={styles.roundBtn}>
+      <ScrollView horizontal={true} >
+      
+      <LinearGradient colors={['#7F38F4', '#c949cc', '#F22B48']} style={styles.roundBtn} >
         <BadgeComponet />
         <Image source={require('../assets/images/ic_yoga.png')} style={styles.btnIcon} />
       </LinearGradient>
@@ -59,7 +59,8 @@ const styles = StyleSheet.create({
     height:70,
     backgroundColor:'#7F38F4',
     borderRadius:100,
-    margin: 10
+    margin: 10,
+    position: 'relative',
   },
   btnIcon: {
     width: 40,

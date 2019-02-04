@@ -13,18 +13,18 @@ const BadgeComponent = () => {
 
 const styles = StyleSheet.create({
   badgeContainer: {
-    position: 'absolute',
     overflow: 'visible',
-    top: 0,
-    right: 1,
-    borderWidth:1,
-    borderColor:'rgba(0,0,0,0.2)',
+    borderWidth: 2,
+    borderColor:'#FEFFFF',
     alignItems:'center',
     justifyContent:'center',
     width:20,
     height:20,
     backgroundColor:'#19B996',
     borderRadius:100,
+    position: 'absolute',
+    right: 2,
+    top: 2,
   }
 });
 
